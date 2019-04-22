@@ -1,7 +1,9 @@
 body,html{
     height: 100%;
-    margin: auto;
+    margin:0 auto;
+    scroll-behavior: smooth;
 }   
+
 .link{
     color: coral;
     padding: 10px 30px;
@@ -10,37 +12,51 @@ body,html{
     background: beige;
 }
 .section1{
-    background: url(../img/maxresdefault.jpg);
-    
-    width: 100%;
-    height: 100%;
-    text-align: center;
+    background: url(../img/PSX_20190421_220121.jpg);
+    height: 60%;
+     padding:20px 0px;
+    padding:100px 0px;
+    text-align: center; 
+   
 }
 .judul{
-    font-family: Eras Bold ITC;
-    font-size: 50px;
-    color: deeppink;
-    margin: auto;
+    font-family: inherit;
+    font-size: 20px;
+    text-align: center;
+    color: black;
 }
 .sub-judul{
-    font-family: Rockwell Extra Bold;
-    font-size: 50px;
+    font-family: inherit;
+    font-size: 20px;
     color: black;
-    margin: auto;
+    text-align: center;
 }
 .section2{
-    background: pink;
+     background: url(../img/food%20blur.jpg);
+    height: 60%;
+    padding:20px 0px;
     padding:100px 0px;
     text-align: center;
+    font-family: cursive;
     
 }.section3{
-    background: beige;
+    background: url(../img/booke%20blur.jpg);
+    height: 60%;
+    padding:20px 0px;
     padding:100px 0px;
     text-align: center;
+    font-family: cursive;
+}
+}.section4{
+    background: url(../img/clothing.jpg);
+    margin: auto;
+    padding:100px 100px;
+    text-align: center;
+    font-family: monospace;
 }
 .col-kiri{
-    background: beige;
+    background: white;
 }
 .col-kanan{
-    background: pink;
+    background: #FFDAB9;
 }
